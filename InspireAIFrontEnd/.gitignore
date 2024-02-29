@@ -1,0 +1,15 @@
+.next
+node_modules
+.env.local
+
+/node_modules
+/.pnp
+.pnp.js
+
+/.glb
+
+/coverage
+
+/build
+
+.DS_Store

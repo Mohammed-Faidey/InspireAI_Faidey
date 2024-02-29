@@ -1,0 +1,53 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next start",
+    "clear-all": "rimraf ./.cache ./.next ./node_modules ./package-lock.json"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@ffmpeg/ffmpeg": "^0.12.10",
+    "@ibm-watson/assistant-web-chat-react": "^1.1.1",
+    "@mui/material": "^5.15.11",
+    "@react-three/drei": "^9.99.4",
+    "@react-three/fiber": "^8.15.16",
+    "aos": "^2.3.4",
+    "axios": "^1.6.7",
+    "bootstrap": "^4.6.0",
+    "clsx": "^1.1.1",
+    "express": "^4.17.1",
+    "file-saver": "^2.0.5",
+    "http-proxy-middleware": "^1.0.6",
+    "ibm-watson": "^8.0.0",
+    "mic-recorder-to-mp3": "^2.2.2",
+    "next": "^14.1.0",
+    "next-images": "^1.7.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-countup": "^4.3.3",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.0.0",
+    "react-lazy-load-image-component": "^1.5.1",
+    "react-media-recorder": "^1.6.6",
+    "react-visibility-sensor": "^5.1.1",
+    "rimraf": "^3.0.2",
+    "three": "^0.161.0"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
